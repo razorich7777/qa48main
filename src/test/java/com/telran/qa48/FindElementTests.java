@@ -25,7 +25,7 @@ public class FindElementTests {
 
             driver = new ChromeDriver();
 
-            driver.get("https://icarro-v1.netlify.app");
+            driver.get("https://demowebshop.tricentis.com");
 
             driver.manage().window().maximize();
 
@@ -50,10 +50,32 @@ public class FindElementTests {
         public void findElementByTagName(){
 
             //find element by tagName
-
-            WebElement element = driver.findElement(By.tagName("h1"));
-
-            System.out.printf(element.getText());
-
+            WebElement element = driver.findElement(By.tagName("H2"));
+            //WebElement element = driver.findElement(By.id("vote-poll-1"));
+            System.out.println("-------------------------");
+            System.out.println(element.getText());
+            System.out.println("-------------------------");
         }
+        @Test
+        public void findElementByClassName(){
+
+        //find element by tagName
+        //WebElement element = driver.findElement(By.tagName("H2"));
+        WebElement element = driver.findElement(By.className("ico-register"));
+        System.out.println("-------------------------");
+        System.out.println(element.getText());
+        System.out.println("-------------------------");
+    }
+
+    @Test
+    public void findElementById(){
+
+        //find element by tagName
+        //WebElement element = driver.findElement(By.tagName("H2"));
+        WebElement element = driver.findElement(By.id("vote-poll-1"));
+        System.out.println("-------------------------");
+        System.out.println(element.getAccessibleName());
+        System.out.println("-------------------------");
+    }
+
 }
