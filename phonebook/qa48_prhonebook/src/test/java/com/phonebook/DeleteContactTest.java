@@ -1,6 +1,5 @@
 package com.phonebook;
 
-import org.openqa.selenium.By;
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
@@ -12,35 +11,22 @@ public class DeleteContactTest extends TestBase{
         //precondition
         //login
         //-----------------------------------------------
-        click(By.cssSelector("[href='/login']"));
+        clinOnLoginLink();
 
         //enter email
-        type(By.name("email"), "sss@ss.com");
-
-        //enter password
-        type(By.name("password"), "Aa11111!");
+        fillRegisterLoginForm(new User().setEmail("sss@ss.com").setPassword("Aa11111!"));
 
         //click on Login button
-        click(By.name("login"));
+        clickOnLoginButton();
 
 
         //add
         //--------------------------------------------
-        click(By.cssSelector("[href='/add']"));
+        clickOnAddLink();
         //enter name
-        type(By.cssSelector("input:nth-child(1)"), "Sergey");
-        //enter lastname
-        type(By.cssSelector("input:nth-child(2)"), "Perlov");
-        //enter phone
-        type(By.cssSelector("input:nth-child(3)"), "1234567890");
-        //enter email
-        type(By.cssSelector("input:nth-child(4)"), "Serius@gmail.com");
-        //enter adress
-        type(By.cssSelector("input:nth-child(5)"), "Tel Aviv");
-        //enter description
-        type(By.cssSelector("input:nth-child(6)"), "QA Manual");
+        fillContentForm(new Contact("Sergey", "Perlov", "1234567890", "Serius@gmail.com", "Tel Aviv", "QA Manual"));
         //click on SAVE button
-        click(By.cssSelector(".add_form__2rsm2 button"));
+        clickOnSaveButton();
 
     }
 
@@ -48,26 +34,12 @@ public class DeleteContactTest extends TestBase{
     public void deleteContactTest(){
         int sizeBefore = sizeOfContacts();
         //click on the cart
-        driver.findElement(By.cssSelector(".contact-item_card__2SOIM")).click();
-        driver.findElement(By.xpath("//button[.='Remove']")).click();
+        deleteContact();
         pause(1000);
         int sizeAfter = sizeOfContacts();
         Assert.assertEquals(sizeAfter,sizeBefore - 1);
         //click on Remove button
         //verify contact is deleted(by size)
     }
-    public void pause(int millis){
-        try {
-            Thread.sleep(millis);
-        } catch (InterruptedException e) {
-            throw new RuntimeException(e);
-        }
-    }
 
-    public int sizeOfContacts() {
-        if(isElementPresent(By.cssSelector(".contact-item_card__2SOIM"))){
-            return driver.findElements(By.cssSelector(".contact-item_card__2SOIM")).size();
-        }
-        return 0;
-    }
 }
