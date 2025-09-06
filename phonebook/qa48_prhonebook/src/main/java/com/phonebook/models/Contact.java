@@ -1,4 +1,4 @@
-package com.phonebook;
+package com.phonebook.models;
 
 public class Contact {
     private String name,  lastName,

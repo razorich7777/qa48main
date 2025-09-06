@@ -1,5 +1,7 @@
 package com.phonebook;
 
+import com.phonebook.models.Contact;
+import com.phonebook.models.User;
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
@@ -11,32 +13,32 @@ public class DeleteContactTest extends TestBase{
         //precondition
         //login
         //-----------------------------------------------
-        clinOnLoginLink();
+        app.getUser().clickOnLoginLink();
 
         //enter email
-        fillRegisterLoginForm(new User().setEmail("sss@ss.com").setPassword("Aa11111!"));
+        app.getUser().fillRegisterLoginForm(new User().setEmail("sss@ss.com").setPassword("Aa11111!"));
 
         //click on Login button
-        clickOnLoginButton();
+        app.getUser().clickOnLoginButton();
 
 
         //add
         //--------------------------------------------
-        clickOnAddLink();
+        app.getContact().clickOnAddLink();
         //enter name
-        fillContentForm(new Contact("Sergey", "Perlov", "1234567890", "Serius@gmail.com", "Tel Aviv", "QA Manual"));
+        app.getContact().fillContentForm(new Contact("Sergey", "Perlov", "1234567890", "Serius@gmail.com", "Tel Aviv", "QA Manual"));
         //click on SAVE button
-        clickOnSaveButton();
+        app.getContact().clickOnSaveButton();
 
     }
 
     @Test
     public void deleteContactTest(){
-        int sizeBefore = sizeOfContacts();
+        int sizeBefore = app.getContact().sizeOfContacts();
         //click on the cart
-        deleteContact();
-        pause(1000);
-        int sizeAfter = sizeOfContacts();
+        app.getContact().deleteContact();
+        app.getContact().pause(1000);
+        int sizeAfter = app.getContact().sizeOfContacts();
         Assert.assertEquals(sizeAfter,sizeBefore - 1);
         //click on Remove button
         //verify contact is deleted(by size)

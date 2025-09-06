@@ -1,4 +1,4 @@
-package com.phonebook;
+package com.phonebook.models;
 
 public class User {
     private String email;
