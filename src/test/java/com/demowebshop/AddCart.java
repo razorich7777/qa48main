@@ -1,41 +1,42 @@
 package com.demowebshop;
-
+import com.demowebshop.fw.ApplicationManager;
 import org.openqa.selenium.By;
-import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.annotations.Test;
-
-import java.time.Duration;
 
 public class AddCart extends TestBase{
     @Test
     public void AddToShoppingCartPositive(){
-        click(By.cssSelector("[href='/books']"));
-        addFirstNBooks(2);
-       // click(By.xpath("(//input[@value='Add to cart'])[1]"));
-      //  click(By.xpath("(//input[@value='Add to cart'])[2]"));
-       // click(By.xpath("(//input[@value='Add to cart'])[3]"));
-        click(By.cssSelector("[href='/cart']"));
-        int count = driver.findElements(By.cssSelector(".remove-from-cart > input")).size();
-        Assert.assertEquals(count, 2);
-    }
-    public void addFirstNBooks(int n){
-        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(7));
-        for (int i = 1; i <= n; i++) {
-            By addBtn = By.xpath("(//div[contains(@class,'product-item')]//input[@value='Add to cart'])[" + i + "]");
-            WebElement el = wait.until(ExpectedConditions.elementToBeClickable(addBtn));
-            ((JavascriptExecutor)driver).executeScript("arguments[0].scrollIntoView({block:'center'});", el);
-            el.click();
+        app.getBook().clickByBook();
+        app.getBook().addNBooks(3);
 
-            // ждём баннер, закрываем и ждём исчезновения (важно!)
-            By success = By.cssSelector(".bar-notification.success");
-            wait.until(ExpectedConditions.visibilityOfElementLocated(success));
-            driver.findElement(By.cssSelector(".bar-notification.success .close")).click();
-            wait.until(ExpectedConditions.invisibilityOfElementLocated(success));
-        }
+       // click(By.xpath("(//input[@value='Add to cart'])[1]"));
+       // click(By.xpath("(//input[@value='Add to cart'])[2]"));
+       // click(By.xpath("(//input[@value='Add to cart'])[3]"));
+
+      //  ((JavascriptExecutor) driver).executeScript("window.scrollTo(0, 0);");
+      //  pause(2000);
+        app.getUser().clickByShoppingCart();
+        int count = app.getSizeOfElement(".remove-from-cart > input");
+        Assert.assertEquals(count, 3);
     }
+   /* @Test
+    public void addAndCheckCartPositive(){
+        app.getUser().clickByBook();
+        String s1;
+        WebElement productItem = app.getUser().findElementByXPath("(//div[contains(@class,'product-item') and .//input[@value='Add to cart'] and .//h2[@class='product-title']])[1]");
+
+        WebElement titleElement = productItem.findElement(By.xpath(".//h2[@class='product-title']"));
+        s1 = titleElement.getText();
+        System.out.println("s1 = " + s1);
+        // href="/computing-and-internet"
+
+        app.getUser().clickByAddToCart();
+        }
+
+    */
+
+
 
 }

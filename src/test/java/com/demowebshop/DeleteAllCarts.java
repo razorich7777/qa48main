@@ -1,11 +1,12 @@
 package com.demowebshop;
-import com.demowebshop.fw.*;
+
 import com.demowebshop.models.User;
+import org.openqa.selenium.By;
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-public class DeleteProduct extends TestBase{
+public class DeleteAllCarts extends TestBase{
     @BeforeMethod
     public void routeToCart(){
         app.getUser().clickByCss("[href='/login']");
@@ -15,25 +16,19 @@ public class DeleteProduct extends TestBase{
 
         app.getBook().clickByBook();
         app.getBook().clickByAddToCart();
-        app.getUser().pause(2000);
+        app.getBook().pause(2000);
         //   click(By.xpath("(//input[@value='Add to cart'])[2]"));
         //  click(By.xpath("(//input[@value='Add to cart'])[3]"));
         app.getUser().clickByShoppingCart();
         app.getUser().pause(2000);
 
     }
+
     @Test
-    public void deleteCartPositive(){
-
-        int sizeBefore = app.getSizeOfElement(".remove-from-cart > input");
-        System.out.println("sizeBefore = " + sizeBefore);
-        app.getBook().deleteCart();
-        int sizeAfter = app.getUser().getSizeOfElementXpath();
-        //.remove-from-cart > input
-        System.out.println("sizeAfter = " + sizeAfter);
-
-
-        Assert.assertEquals(sizeBefore-1, sizeAfter);
+    public void deleteAllCartsPositive(){
+        app.getBook().deleteAllCarts();
+        Assert.assertTrue(app.getUser().isElementPresent(By.xpath("//*[contains(text(), 'Your Shopping Cart is empty!')]")));
     }
+
 
 }
