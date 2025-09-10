@@ -2,10 +2,17 @@ package com.phonebook;
 
 import com.phonebook.models.User;
 import org.testng.Assert;
+import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 public class LoginTest  extends TestBase{
-    @Test
+    @BeforeMethod
+    public void ensurePrecondition(){
+        if(!app.getUser().isLoginLinkPresent()){
+            app.getUser().clickOnSignOutButton();
+        }
+    }
+    @Test(priority = 1)
     public void loginPositiveTest(){
 
         //click on login link
@@ -18,7 +25,7 @@ public class LoginTest  extends TestBase{
         app.getUser().clickOnLoginButton();
 
         Assert.assertTrue(app.getUser().isSignOutPresent());
-    }@Test
+    }@Test(priority = 2)
     public void loginNegativeWithoutMailTest(){
 
         //click on login link

@@ -11,6 +11,9 @@ public class AddContactTest extends TestBase{
     //pre-condition login
     @BeforeMethod
     public void precondition(){
+        if(!app.getUser().isLoginLinkPresent()){
+            app.getUser().clickOnSignOutButton();
+        }
         app.getUser().clickOnLoginLink();
 
         //enter email

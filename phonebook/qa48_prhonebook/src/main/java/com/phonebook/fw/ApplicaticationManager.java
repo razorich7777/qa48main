@@ -2,6 +2,8 @@ package com.phonebook.fw;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.edge.EdgeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 
 import java.time.Duration;
 
@@ -10,9 +12,13 @@ import java.time.Duration;
 public class ApplicaticationManager {
 
     WebDriver driver;
-
+    String browser;
     UserHelper user;
     ContactHelper contact;
+
+    public ApplicaticationManager(String browser) {
+        this.browser = browser;
+    }
 
     public WebDriver getDriver() {
         return driver;
@@ -49,7 +55,12 @@ public class ApplicaticationManager {
     HomePageHelper home;
 
     public void init() {
-        driver = new ChromeDriver();
+        if(browser.equalsIgnoreCase("chrome")){
+        driver = new ChromeDriver();} else if (browser.equalsIgnoreCase("firefox")) {
+            driver= new FirefoxDriver();
+        }else if (browser.equalsIgnoreCase("edge")){
+            driver = new EdgeDriver();
+        }
         driver.get("https://telranedu.web.app/home");
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
