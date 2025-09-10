@@ -74,4 +74,13 @@ public class BaseHelper {
     public void clickByShoppingCart() {
         clickByXPath("//*[contains(text(), 'Shopping cart')]");
     }
+
+    public boolean isLoginLinkPresent() {
+        return isElementPresent(By.cssSelector("[href='/login']"));
+    }
+
+
+    public void clickOnSignOutButton() {
+        click(By.cssSelector("[href='/logout']"));
+    }
 }

@@ -3,9 +3,16 @@ import com.demowebshop.fw.ApplicationManager;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
+import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 public class AddCart extends TestBase{
+    @BeforeMethod
+    public void precondition() {
+        if (!app.getUser().isLoginLinkPresent()) {
+            app.getUser().clickOnSignOutButton();
+        }
+    }
     @Test
     public void AddToShoppingCartPositive(){
         app.getBook().clickByBook();

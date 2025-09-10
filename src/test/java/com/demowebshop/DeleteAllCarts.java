@@ -9,6 +9,11 @@ import org.testng.annotations.Test;
 public class DeleteAllCarts extends TestBase{
     @BeforeMethod
     public void routeToCart(){
+
+            if (!app.getUser().isLoginLinkPresent()) {
+                app.getUser().clickOnSignOutButton();
+            }
+
         app.getUser().clickByCss("[href='/login']");
         app.getUser().fillFormRegistration( new User( "Sssssssss@ss.com", "Aa11111!"));
         app.getUser().clickByXPath("//input[@class='button-1 login-button']");
