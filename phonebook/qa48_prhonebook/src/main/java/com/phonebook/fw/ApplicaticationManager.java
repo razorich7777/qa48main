@@ -9,7 +9,7 @@ import java.time.Duration;
 
 // те функции что не имеют аннотаций
 // веб драйвер нужен и в аппменеджер и в бейзхелпере
-public class ApplicaticationManager {
+public class ApplicaticationManager{
 
     WebDriver driver;
     String browser;

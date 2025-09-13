@@ -1,5 +1,7 @@
 package com.phonebook;
 
+import com.phonebook.data.ContactData;
+import com.phonebook.data.UserData;
 import com.phonebook.models.Contact;
 import com.phonebook.models.User;
 import org.testng.Assert;
@@ -19,7 +21,7 @@ public class DeleteContactTest extends TestBase{
         app.getUser().clickOnLoginLink();
 
         //enter email
-        app.getUser().fillRegisterLoginForm(new User().setEmail("sss@ss.com").setPassword("Aa11111!"));
+        app.getUser().fillRegisterLoginForm(new User().setEmail(UserData.EMAIL).setPassword(UserData.PASSWORD));
 
         //click on Login button
         app.getUser().clickOnLoginButton();
@@ -29,7 +31,7 @@ public class DeleteContactTest extends TestBase{
         //--------------------------------------------
         app.getContact().clickOnAddLink();
         //enter name
-        app.getContact().fillContentForm(new Contact("Sergey", "Perlov", "1234567890", "Serius@gmail.com", "Tel Aviv", "QA Manual"));
+        app.getContact().fillContentForm(new Contact(ContactData.NAME,  ContactData.LASTNAME, ContactData.PHONE, ContactData.EMAIL, ContactData.ADDRESS, ContactData.DESCRIPTION));
         //click on SAVE button
         app.getContact().clickOnSaveButton();
 

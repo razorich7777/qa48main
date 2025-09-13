@@ -1,5 +1,6 @@
 package com.phonebook;
 
+import com.phonebook.data.UserData;
 import com.phonebook.models.User;
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
@@ -20,7 +21,7 @@ public class CreateAccountTests extends TestBase{
         //click on login link
         app.getUser().clickOnLoginLink();
         //enter email
-        app.getUser().fillRegisterLoginForm(new User().setEmail("sss" + i + "@ss.com").setPassword("Aa11111!"));
+        app.getUser().fillRegisterLoginForm(new User().setEmail("sss" + i + "@ss.com").setPassword(UserData.PASSWORD));
         //click on registration button
         app.getUser().clickOnRegistrationButton();
         //verify singout is displayed
@@ -32,7 +33,7 @@ public class CreateAccountTests extends TestBase{
         //click on login link
         app.getUser().clickOnLoginLink();
         //enter email
-        app.getUser().fillRegisterLoginForm(new User().setEmail("sss@ss.com").setPassword("Aa11111!"));
+        app.getUser().fillRegisterLoginForm(new User().setEmail(UserData.EMAIL).setPassword(UserData.PASSWORD));
 
 
         //click on registration button
