@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="createAccountTestsWithProvider" verbose="1">
+    <test name="createAccountTestsWithProvider">
+        <classes>
+            <class name="com.demowebshop.CreateAccountTests"/>
+        </classes>
+    </test>
+</suite>

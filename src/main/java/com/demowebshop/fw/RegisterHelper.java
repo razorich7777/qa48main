@@ -13,14 +13,14 @@ public class RegisterHelper extends BaseHelper{
         clickByXPath("//input[@value='Register']");
     }
 
-    public void fillForm() {
-        type(By.cssSelector(".inputs:nth-child(2) > .text-box.single-line"), "Sergey");
-        type(By.cssSelector(".inputs:nth-child(3) > .text-box.single-line"), "Perlov");
-        int i = (int)((System.currentTimeMillis()/1000)%3600);
-        type(By.cssSelector(".inputs:nth-child(4) > .text-box.single-line"), "Sssssssss" + i + "@ss.com");
+    public void fillForm(String name, String lastName, String email, String password, String surePassword) {
+        type(By.cssSelector(".inputs:nth-child(2) > .text-box.single-line"), name);
+        type(By.cssSelector(".inputs:nth-child(3) > .text-box.single-line"), lastName);
+      //  int i = (int)((System.currentTimeMillis()/1000)%3600);
+        type(By.cssSelector(".inputs:nth-child(4) > .text-box.single-line"), email);
         //password
-        type(By.cssSelector(".inputs:nth-child(1) > .text-box.single-line"), "Aa11111!");
-        type(By.xpath("//input[@id='ConfirmPassword']"), "Aa11111!");
+        type(By.cssSelector(".inputs:nth-child(1) > .text-box.single-line"), password);
+        type(By.xpath("//input[@id='ConfirmPassword']"), surePassword);
     }
 
     public void clickByRadio() {

@@ -13,6 +13,8 @@ public class AddCart extends TestBase{
             app.getUser().clickOnSignOutButton();
         }
     }
+
+
     @Test
     public void AddToShoppingCartPositive(){
         app.getBook().clickByBook();
