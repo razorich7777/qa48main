@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.demowebshop.CreateAccountTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2025-09-13T15:27:50" hostname="PCSERGIUS" time="60.133">
+  <properties/>
+  <testcase name="newUserRegistrationPositive[0](Oliver, Kan, kan656@gmail.com, Aa11111!, Aa11111!)" classname="com.demowebshop.CreateAccountTests" time="2.323"/>
+  <testcase name="newUserRegistrationPositive[1](Sergey, Perlov, sergius656@gmail.com, Aa95111!, Aa95111!)" classname="com.demowebshop.CreateAccountTests" time="2.076"/>
+  <testcase name="newUserRegistrationPositive[2](Alex, Man, aman656@gmail.com, Aa16611!, Aa16611!)" classname="com.demowebshop.CreateAccountTests" time="2.053"/>
+  <system-out><![CDATA[18:27:50.038 [Test worker] INFO  com.demowebshop.TestBase -- Start test newUserRegistrationPositive
+18:27:52.375 [Test worker] INFO  com.demowebshop.TestBase -- PASSED: newUserRegistrationPositive
+18:27:52.375 [Test worker] INFO  com.demowebshop.TestBase -- Finish test
+18:27:52.375 [Test worker] INFO  com.demowebshop.TestBase -- *************************************
+18:27:52.376 [Test worker] INFO  com.demowebshop.TestBase -- Start test newUserRegistrationPositive
+18:28:05.309 [Test worker] INFO  com.demowebshop.TestBase -- PASSED: newUserRegistrationPositive
+18:28:05.310 [Test worker] INFO  com.demowebshop.TestBase -- Finish test
+18:28:05.310 [Test worker] INFO  com.demowebshop.TestBase -- *************************************
+18:28:05.311 [Test worker] INFO  com.demowebshop.TestBase -- Start test newUserRegistrationPositive
+18:28:50.185 [Test worker] INFO  com.demowebshop.TestBase -- PASSED: newUserRegistrationPositive
+18:28:50.185 [Test worker] INFO  com.demowebshop.TestBase -- Finish test
+18:28:50.185 [Test worker] INFO  com.demowebshop.TestBase -- *************************************
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
