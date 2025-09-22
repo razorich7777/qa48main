@@ -26,7 +26,7 @@ task smoky(type:Test){
     }
 }
 
-task qa48main(type:Test){
+task qa1(type:Test){
     useTestNG() {
         def suite1 = project.hasProperty("suite1")
         def suite2 = project.hasProperty("suite2")
