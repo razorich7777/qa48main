@@ -15,7 +15,7 @@
             </class>
             <class name="com.demowebshop.CreateAccountTests">
                 <methods>
-                    <include name=".*Positive.*"></include>
+                    <exclude name=".*Positive.*"></exclude>
                 </methods>
             </class>
         </classes>
