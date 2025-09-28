@@ -29,7 +29,7 @@ public class CreateAccountTests extends TestBase{
         Assert.assertTrue(app.getUser().isElementPresentCss("[href='/logout']"));
     }
 
-    @Test(dataProvider = "registretionUserWithCSV", dataProviderClass = DataProviders.class)
+    @Test(dataProvider = "registretionUserWithCSVPositive", dataProviderClass = DataProviders.class)
     public void newUserRegistrationPositiveWithCSV(String name, String lastName, String email, String password, String surePassword){
         app.getRegister().clickByRegister();
         app.getRegister().clickByRadio();

@@ -13,11 +13,6 @@
                     <include name=".*Positive.*"></include>
                 </methods>
             </class>
-            <class name="com.demowebshop.CreateAccountTests">
-                <methods>
-                    <exclude name=".*Positive.*"></exclude>
-                </methods>
-            </class>
         </classes>
     </test>
 </suite>

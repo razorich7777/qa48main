@@ -1,9 +1,14 @@
 package com.demowebshop.fw;
 
+import com.demowebshop.utils.Listener2;
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.support.events.EventFiringDecorator;
+import org.openqa.selenium.support.events.WebDriverListener;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import java.time.Duration;
 
@@ -12,9 +17,12 @@ public class ApplicationManager {
     UserHelper user;
     String browser;
 
+    Logger logger = LoggerFactory.getLogger(ApplicationManager.class);
+
     public ApplicationManager(String browser) {
         this.browser = browser;
     }
+
 
     public BookHelper getBook() {
         return book;
@@ -53,12 +61,18 @@ public class ApplicationManager {
 
     public void init() {
         if(browser.equalsIgnoreCase("chrome")){
-            driver = new ChromeDriver();} else if (browser.equalsIgnoreCase("firefox")) {
+            driver = new ChromeDriver();
+            logger.info("Test start in ChromeDriver");
+        }
+        else if (browser.equalsIgnoreCase("firefox")) {
             driver= new FirefoxDriver();
         }else if (browser.equalsIgnoreCase("edge")){
             driver = new EdgeDriver();
         }
+        WebDriverListener listener = new Listener2();
+        driver = new EventFiringDecorator<>(listener).decorate(driver);
         driver.get("https://demowebshop.tricentis.com");
+        logger.info("Current url --> " + driver.getCurrentUrl());
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
         user = new UserHelper(driver);

@@ -13,14 +13,15 @@ import java.util.List;
 
 public class DataProviders {
     @DataProvider
-    public Iterator<Object[]> registretionUserWithCSV() throws IOException {
+    public Iterator<Object[]> registretionUserWithCSVPositive() throws IOException {
         List<Object[]> list = new ArrayList<>();
         BufferedReader reader = new BufferedReader(new FileReader(new File("src/test/resources/Names.csv")));
 
         String line = reader.readLine();
         while (line!=null){
+            int i = (int)((System.currentTimeMillis()/1000)%3600);
             String[] strings = line.split(",");
-            list.add(new Object[]{strings[0],strings[1],strings[2],strings[3],strings[4]});
+            list.add(new Object[]{strings[0],strings[1], i + strings[2],strings[3],strings[4]});
 
             line = reader.readLine();}
 
@@ -30,9 +31,10 @@ public class DataProviders {
     @DataProvider
     public Iterator<Object[]> newRegistrationData(){
         List<Object[]> list = new ArrayList<>();
-        list.add(new Object[]{"Oliver", "Kan", "kan656@gmail.com", "Aa11111!", "Aa11111!"});
-        list.add(new Object[]{"Sergey", "Perlov", "sergius656@gmail.com", "Aa95111!", "Aa95111!"});
-        list.add(new Object[]{"Alex", "Man", "aman656@gmail.com", "Aa16611!", "Aa16611!"});
+        int i = (int)((System.currentTimeMillis()/1000)%3600);
+        list.add(new Object[]{"Oliver", "Kan", i + "kan6561@gmail.com", "Aa11111!", "Aa11111!"});
+        list.add(new Object[]{"Sergey", "Perlov", i + "sergius6561@gmail.com", "Aa95111!", "Aa95111!"});
+        list.add(new Object[]{"Alex", "Man", i + "aman6561@gmail.com", "Aa16611!", "Aa16611!"});
         return list.iterator();
     }
 }

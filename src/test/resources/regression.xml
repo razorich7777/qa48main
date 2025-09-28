@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Regression" verbose="1">
+    <test name="Regression">
+        <classes>
+            <class name="com.demowebshop.LoginAccountTests">
+
+            </class>
+            <class name="com.demowebshop.AddCart">
+
+            </class>
+            <class name="com.demowebshop.CreateAccountTests">
+
+            </class>
+        </classes>
+    </test>
+</suite>
