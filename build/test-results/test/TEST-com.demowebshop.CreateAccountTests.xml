@@ -1,0 +1,447 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.demowebshop.CreateAccountTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2025-09-28T10:47:20" hostname="PCSERGIUS" time="66.363">
+  <properties/>
+  <testcase name="newUserRegistrationPositiveWithCSV[0](﻿Sergio, Perlov, 2840kan65611@gmail.com, Aa11111!, Aa11111!)" classname="com.demowebshop.CreateAccountTests" time="2.51"/>
+  <testcase name="newUserRegistrationPositiveWithCSV[1](Mario, Orlov, 2840kan65631@gmail.com, Aa11111!, Aa11111!)" classname="com.demowebshop.CreateAccountTests" time="8.874"/>
+  <testcase name="newUserRegistrationPositiveWithCSV[2](Ezio, Auditore, 2840kan65641@gmail.com, Aa11111!, Aa11111!)" classname="com.demowebshop.CreateAccountTests" time="2.74"/>
+  <testcase name="newUserRegistrationPositiveWithCSV[3](Josh, Smith, 2840kan65601@gmail.com, Aa11111!, Aa11111!)" classname="com.demowebshop.CreateAccountTests" time="1.989"/>
+  <testcase name="newUserRegistrationPositiveWithCSV[4](Eliy, Kohen, 2840kan65691@gmail.com, Aa11111!, Aa11111!)" classname="com.demowebshop.CreateAccountTests" time="1.974"/>
+  <system-out><![CDATA[13:47:20.591 [Test worker] INFO  com.demowebshop.TestBase -- Start test newUserRegistrationPositiveWithCSV[﻿Sergio, Perlov, 2840kan65611@gmail.com, Aa11111!, Aa11111!]
+13:47:20.592 [Test worker] INFO  com.demowebshop.utils.Listener2 -- Before find elements By.cssSelector: [href='/login']
+13:47:20.592 [Test worker] INFO  com.demowebshop.utils.Listener2 -- *************************************
+13:47:20.608 [Test worker] INFO  com.demowebshop.utils.Listener2 -- List size is 1
+13:47:20.608 [Test worker] INFO  com.demowebshop.utils.Listener2 -- *************************************
+13:47:20.609 [Test worker] INFO  com.demowebshop.utils.Listener2 -- The locator will find By.cssSelector: [href='/register']
+13:47:20.612 [Test worker] INFO  com.demowebshop.utils.Listener2 -- *************************************
+13:47:20.626 [Test worker] INFO  com.demowebshop.utils.Listener2 -- The locator is By.cssSelector: [href='/register']
+13:47:20.626 [Test worker] INFO  com.demowebshop.utils.Listener2 -- *************************************
+13:47:21.291 [Test worker] INFO  com.demowebshop.utils.Listener2 -- The locator will find By.xpath: //input[@type='radio'][@id='gender-male']
+13:47:21.291 [Test worker] INFO  com.demowebshop.utils.Listener2 -- *************************************
+13:47:21.305 [Test worker] INFO  com.demowebshop.utils.Listener2 -- The locator is By.xpath: //input[@type='radio'][@id='gender-male']
+13:47:21.305 [Test worker] INFO  com.demowebshop.utils.Listener2 -- *************************************
+13:47:21.337 [Test worker] INFO  com.demowebshop.utils.Listener2 -- The locator will find By.cssSelector: .inputs:nth-child(2) > .text-box.single-line
+13:47:21.337 [Test worker] INFO  com.demowebshop.utils.Listener2 -- *************************************
+13:47:21.348 [Test worker] INFO  com.demowebshop.utils.Listener2 -- The locator is By.cssSelector: .inputs:nth-child(2) > .text-box.single-line
+13:47:21.348 [Test worker] INFO  com.demowebshop.utils.Listener2 -- *************************************
+13:47:21.380 [Test worker] INFO  com.demowebshop.utils.Listener2 -- The locator will find By.cssSelector: .inputs:nth-child(2) > .text-box.single-line
+13:47:21.380 [Test worker] INFO  com.demowebshop.utils.Listener2 -- *************************************
+13:47:21.388 [Test worker] INFO  com.demowebshop.utils.Listener2 -- The locator is By.cssSelector: .inputs:nth-child(2) > .text-box.single-line
+13:47:21.388 [Test worker] INFO  com.demowebshop.utils.Listener2 -- *************************************
+13:47:21.405 [Test worker] INFO  com.demowebshop.utils.Listener2 -- The locator will find By.cssSelector: .inputs:nth-child(2) > .text-box.single-line
+13:47:21.405 [Test worker] INFO  com.demowebshop.utils.Listener2 -- *************************************
+13:47:21.417 [Test worker] INFO  com.demowebshop.utils.Listener2 -- The locator is By.cssSelector: .inputs:nth-child(2) > .text-box.single-line
+13:47:21.417 [Test worker] INFO  com.demowebshop.utils.Listener2 -- *************************************
+13:47:21.436 [Test worker] INFO  com.demowebshop.utils.Listener2 -- The locator will find By.cssSelector: .inputs:nth-child(3) > .text-box.single-line
+13:47:21.436 [Test worker] INFO  com.demowebshop.utils.Listener2 -- *************************************
+13:47:21.448 [Test worker] INFO  com.demowebshop.utils.Listener2 -- The locator is By.cssSelector: .inputs:nth-child(3) > .text-box.single-line
+13:47:21.448 [Test worker] INFO  com.demowebshop.utils.Listener2 -- *************************************
+13:47:21.478 [Test worker] INFO  com.demowebshop.utils.Listener2 -- The locator will find By.cssSelector: .inputs:nth-child(3) > .text-box.single-line
+13:47:21.478 [Test worker] INFO  com.demowebshop.utils.Listener2 -- *************************************
+13:47:21.486 [Test worker] INFO  com.demowebshop.utils.Listener2 -- The locator is By.cssSelector: .inputs:nth-child(3) > .text-box.single-line
+13:47:21.486 [Test worker] INFO  com.demowebshop.utils.Listener2 -- *************************************
+13:47:21.498 [Test worker] INFO  com.demowebshop.utils.Listener2 -- The locator will find By.cssSelector: .inputs:nth-child(3) > .text-box.single-line
+13:47:21.498 [Test worker] INFO  com.demowebshop.utils.Listener2 -- *************************************
+13:47:21.507 [Test worker] INFO  com.demowebshop.utils.Listener2 -- The locator is By.cssSelector: .inputs:nth-child(3) > .text-box.single-line
+13:47:21.507 [Test worker] INFO  com.demowebshop.utils.Listener2 -- *************************************
+13:47:21.521 [Test worker] INFO  com.demowebshop.utils.Listener2 -- The locator will find By.cssSelector: .inputs:nth-child(4) > .text-box.single-line
+13:47:21.521 [Test worker] INFO  com.demowebshop.utils.Listener2 -- *************************************
+13:47:21.532 [Test worker] INFO  com.demowebshop.utils.Listener2 -- The locator is By.cssSelector: .inputs:nth-child(4) > .text-box.single-line
+13:47:21.532 [Test worker] INFO  com.demowebshop.utils.Listener2 -- *************************************
+13:47:21.561 [Test worker] INFO  com.demowebshop.utils.Listener2 -- The locator will find By.cssSelector: .inputs:nth-child(4) > .text-box.single-line
+13:47:21.561 [Test worker] INFO  com.demowebshop.utils.Listener2 -- *************************************
+13:47:21.569 [Test worker] INFO  com.demowebshop.utils.Listener2 -- The locator is By.cssSelector: .inputs:nth-child(4) > .text-box.single-line
+13:47:21.569 [Test worker] INFO  com.demowebshop.utils.Listener2 -- *************************************
+13:47:21.580 [Test worker] INFO  com.demowebshop.utils.Listener2 -- The locator will find By.cssSelector: .inputs:nth-child(4) > .text-box.single-line
+13:47:21.581 [Test worker] INFO  com.demowebshop.utils.Listener2 -- *************************************
+13:47:21.587 [Test worker] INFO  com.demowebshop.utils.Listener2 -- The locator is By.cssSelector: .inputs:nth-child(4) > .text-box.single-line
+13:47:21.588 [Test worker] INFO  com.demowebshop.utils.Listener2 -- *************************************
+13:47:21.608 [Test worker] INFO  com.demowebshop.utils.Listener2 -- The locator will find By.cssSelector: .inputs:nth-child(1) > .text-box.single-line
+13:47:21.608 [Test worker] INFO  com.demowebshop.utils.Listener2 -- *************************************
+13:47:21.617 [Test worker] INFO  com.demowebshop.utils.Listener2 -- The locator is By.cssSelector: .inputs:nth-child(1) > .text-box.single-line
+13:47:21.618 [Test worker] INFO  com.demowebshop.utils.Listener2 -- *************************************
+13:47:21.643 [Test worker] INFO  com.demowebshop.utils.Listener2 -- The locator will find By.cssSelector: .inputs:nth-child(1) > .text-box.single-line
+13:47:21.643 [Test worker] INFO  com.demowebshop.utils.Listener2 -- *************************************
+13:47:21.651 [Test worker] INFO  com.demowebshop.utils.Listener2 -- The locator is By.cssSelector: .inputs:nth-child(1) > .text-box.single-line
+13:47:21.651 [Test worker] INFO  com.demowebshop.utils.Listener2 -- *************************************
+13:47:21.663 [Test worker] INFO  com.demowebshop.utils.Listener2 -- The locator will find By.cssSelector: .inputs:nth-child(1) > .text-box.single-line
+13:47:21.663 [Test worker] INFO  com.demowebshop.utils.Listener2 -- *************************************
+13:47:21.667 [Test worker] INFO  com.demowebshop.utils.Listener2 -- The locator is By.cssSelector: .inputs:nth-child(1) > .text-box.single-line
+13:47:21.667 [Test worker] INFO  com.demowebshop.utils.Listener2 -- *************************************
+13:47:21.686 [Test worker] INFO  com.demowebshop.utils.Listener2 -- The locator will find By.xpath: //input[@id='ConfirmPassword']
+13:47:21.686 [Test worker] INFO  com.demowebshop.utils.Listener2 -- *************************************
+13:47:21.695 [Test worker] INFO  com.demowebshop.utils.Listener2 -- The locator is By.xpath: //input[@id='ConfirmPassword']
+13:47:21.695 [Test worker] INFO  com.demowebshop.utils.Listener2 -- *************************************
+13:47:21.726 [Test worker] INFO  com.demowebshop.utils.Listener2 -- The locator will find By.xpath: //input[@id='ConfirmPassword']
+13:47:21.726 [Test worker] INFO  com.demowebshop.utils.Listener2 -- *************************************
+13:47:21.733 [Test worker] INFO  com.demowebshop.utils.Listener2 -- The locator is By.xpath: //input[@id='ConfirmPassword']
+13:47:21.734 [Test worker] INFO  com.demowebshop.utils.Listener2 -- *************************************
+13:47:21.744 [Test worker] INFO  com.demowebshop.utils.Listener2 -- The locator will find By.xpath: //input[@id='ConfirmPassword']
+13:47:21.744 [Test worker] INFO  com.demowebshop.utils.Listener2 -- *************************************
+13:47:21.744 [Test worker] INFO  com.demowebshop.utils.Listener2 -- The locator is By.xpath: //input[@id='ConfirmPassword']
+13:47:21.744 [Test worker] INFO  com.demowebshop.utils.Listener2 -- *************************************
+13:47:21.764 [Test worker] INFO  com.demowebshop.utils.Listener2 -- The locator will find By.xpath: //input[@value='Register']
+13:47:21.764 [Test worker] INFO  com.demowebshop.utils.Listener2 -- *************************************
+13:47:21.776 [Test worker] INFO  com.demowebshop.utils.Listener2 -- The locator is By.xpath: //input[@value='Register']
+13:47:21.776 [Test worker] INFO  com.demowebshop.utils.Listener2 -- *************************************
+13:47:23.102 [Test worker] INFO  com.demowebshop.utils.Listener2 -- Before find elements By.cssSelector: [href='/logout']
+13:47:23.102 [Test worker] INFO  com.demowebshop.utils.Listener2 -- *************************************
+13:47:23.118 [Test worker] INFO  com.demowebshop.utils.Listener2 -- List size is 1
+13:47:23.118 [Test worker] INFO  com.demowebshop.utils.Listener2 -- *************************************
+13:47:23.119 [Test worker] INFO  com.demowebshop.TestBase -- PASSED: newUserRegistrationPositiveWithCSV
+13:47:23.119 [Test worker] INFO  com.demowebshop.TestBase -- Finish test
+13:47:23.119 [Test worker] INFO  com.demowebshop.TestBase -- *************************************
+13:47:23.119 [Test worker] INFO  com.demowebshop.TestBase -- Start test newUserRegistrationPositiveWithCSV[Mario, Orlov, 2840kan65631@gmail.com, Aa11111!, Aa11111!]
+13:47:23.119 [Test worker] INFO  com.demowebshop.utils.Listener2 -- Before find elements By.cssSelector: [href='/login']
+13:47:23.119 [Test worker] INFO  com.demowebshop.utils.Listener2 -- *************************************
+13:47:33.167 [Test worker] INFO  com.demowebshop.utils.Listener2 -- List size is 0
+13:47:33.167 [Test worker] INFO  com.demowebshop.utils.Listener2 -- *************************************
+13:47:33.167 [Test worker] INFO  com.demowebshop.utils.Listener2 -- The locator will find By.cssSelector: [href='/logout']
+13:47:33.167 [Test worker] INFO  com.demowebshop.utils.Listener2 -- *************************************
+13:47:33.174 [Test worker] INFO  com.demowebshop.utils.Listener2 -- The locator is By.cssSelector: [href='/logout']
+13:47:33.174 [Test worker] INFO  com.demowebshop.utils.Listener2 -- *************************************
+13:47:38.930 [Test worker] INFO  com.demowebshop.utils.Listener2 -- The locator will find By.cssSelector: [href='/register']
+13:47:38.930 [Test worker] INFO  com.demowebshop.utils.Listener2 -- *************************************
+13:47:38.941 [Test worker] INFO  com.demowebshop.utils.Listener2 -- The locator is By.cssSelector: [href='/register']
+13:47:38.941 [Test worker] INFO  com.demowebshop.utils.Listener2 -- *************************************
+13:47:45.053 [Test worker] INFO  com.demowebshop.utils.Listener2 -- The locator will find By.xpath: //input[@type='radio'][@id='gender-male']
+13:47:45.054 [Test worker] INFO  com.demowebshop.utils.Listener2 -- *************************************
+13:47:45.064 [Test worker] INFO  com.demowebshop.utils.Listener2 -- The locator is By.xpath: //input[@type='radio'][@id='gender-male']
+13:47:45.065 [Test worker] INFO  com.demowebshop.utils.Listener2 -- *************************************
+13:47:45.090 [Test worker] INFO  com.demowebshop.utils.Listener2 -- The locator will find By.cssSelector: .inputs:nth-child(2) > .text-box.single-line
+13:47:45.090 [Test worker] INFO  com.demowebshop.utils.Listener2 -- *************************************
+13:47:45.097 [Test worker] INFO  com.demowebshop.utils.Listener2 -- The locator is By.cssSelector: .inputs:nth-child(2) > .text-box.single-line
+13:47:45.097 [Test worker] INFO  com.demowebshop.utils.Listener2 -- *************************************
+13:47:45.122 [Test worker] INFO  com.demowebshop.utils.Listener2 -- The locator will find By.cssSelector: .inputs:nth-child(2) > .text-box.single-line
+13:47:45.122 [Test worker] INFO  com.demowebshop.utils.Listener2 -- *************************************
+13:47:45.135 [Test worker] INFO  com.demowebshop.utils.Listener2 -- The locator is By.cssSelector: .inputs:nth-child(2) > .text-box.single-line
+13:47:45.135 [Test worker] INFO  com.demowebshop.utils.Listener2 -- *************************************
+13:47:45.148 [Test worker] INFO  com.demowebshop.utils.Listener2 -- The locator will find By.cssSelector: .inputs:nth-child(2) > .text-box.single-line
+13:47:45.148 [Test worker] INFO  com.demowebshop.utils.Listener2 -- *************************************
+13:47:45.158 [Test worker] INFO  com.demowebshop.utils.Listener2 -- The locator is By.cssSelector: .inputs:nth-child(2) > .text-box.single-line
+13:47:45.158 [Test worker] INFO  com.demowebshop.utils.Listener2 -- *************************************
+13:47:45.175 [Test worker] INFO  com.demowebshop.utils.Listener2 -- The locator will find By.cssSelector: .inputs:nth-child(3) > .text-box.single-line
+13:47:45.175 [Test worker] INFO  com.demowebshop.utils.Listener2 -- *************************************
+13:47:45.182 [Test worker] INFO  com.demowebshop.utils.Listener2 -- The locator is By.cssSelector: .inputs:nth-child(3) > .text-box.single-line
+13:47:45.182 [Test worker] INFO  com.demowebshop.utils.Listener2 -- *************************************
+13:47:45.209 [Test worker] INFO  com.demowebshop.utils.Listener2 -- The locator will find By.cssSelector: .inputs:nth-child(3) > .text-box.single-line
+13:47:45.209 [Test worker] INFO  com.demowebshop.utils.Listener2 -- *************************************
+13:47:45.224 [Test worker] INFO  com.demowebshop.utils.Listener2 -- The locator is By.cssSelector: .inputs:nth-child(3) > .text-box.single-line
+13:47:45.224 [Test worker] INFO  com.demowebshop.utils.Listener2 -- *************************************
+13:47:45.236 [Test worker] INFO  com.demowebshop.utils.Listener2 -- The locator will find By.cssSelector: .inputs:nth-child(3) > .text-box.single-line
+13:47:45.236 [Test worker] INFO  com.demowebshop.utils.Listener2 -- *************************************
+13:47:45.243 [Test worker] INFO  com.demowebshop.utils.Listener2 -- The locator is By.cssSelector: .inputs:nth-child(3) > .text-box.single-line
+13:47:45.243 [Test worker] INFO  com.demowebshop.utils.Listener2 -- *************************************
+13:47:45.257 [Test worker] INFO  com.demowebshop.utils.Listener2 -- The locator will find By.cssSelector: .inputs:nth-child(4) > .text-box.single-line
+13:47:45.257 [Test worker] INFO  com.demowebshop.utils.Listener2 -- *************************************
+13:47:45.266 [Test worker] INFO  com.demowebshop.utils.Listener2 -- The locator is By.cssSelector: .inputs:nth-child(4) > .text-box.single-line
+13:47:45.266 [Test worker] INFO  com.demowebshop.utils.Listener2 -- *************************************
+13:47:45.291 [Test worker] INFO  com.demowebshop.utils.Listener2 -- The locator will find By.cssSelector: .inputs:nth-child(4) > .text-box.single-line
+13:47:45.292 [Test worker] INFO  com.demowebshop.utils.Listener2 -- *************************************
+13:47:45.303 [Test worker] INFO  com.demowebshop.utils.Listener2 -- The locator is By.cssSelector: .inputs:nth-child(4) > .text-box.single-line
+13:47:45.304 [Test worker] INFO  com.demowebshop.utils.Listener2 -- *************************************
+13:47:45.317 [Test worker] INFO  com.demowebshop.utils.Listener2 -- The locator will find By.cssSelector: .inputs:nth-child(4) > .text-box.single-line
+13:47:45.317 [Test worker] INFO  com.demowebshop.utils.Listener2 -- *************************************
+13:47:45.323 [Test worker] INFO  com.demowebshop.utils.Listener2 -- The locator is By.cssSelector: .inputs:nth-child(4) > .text-box.single-line
+13:47:45.324 [Test worker] INFO  com.demowebshop.utils.Listener2 -- *************************************
+13:47:45.343 [Test worker] INFO  com.demowebshop.utils.Listener2 -- The locator will find By.cssSelector: .inputs:nth-child(1) > .text-box.single-line
+13:47:45.344 [Test worker] INFO  com.demowebshop.utils.Listener2 -- *************************************
+13:47:45.349 [Test worker] INFO  com.demowebshop.utils.Listener2 -- The locator is By.cssSelector: .inputs:nth-child(1) > .text-box.single-line
+13:47:45.349 [Test worker] INFO  com.demowebshop.utils.Listener2 -- *************************************
+13:47:45.377 [Test worker] INFO  com.demowebshop.utils.Listener2 -- The locator will find By.cssSelector: .inputs:nth-child(1) > .text-box.single-line
+13:47:45.378 [Test worker] INFO  com.demowebshop.utils.Listener2 -- *************************************
+13:47:45.385 [Test worker] INFO  com.demowebshop.utils.Listener2 -- The locator is By.cssSelector: .inputs:nth-child(1) > .text-box.single-line
+13:47:45.385 [Test worker] INFO  com.demowebshop.utils.Listener2 -- *************************************
+13:47:45.398 [Test worker] INFO  com.demowebshop.utils.Listener2 -- The locator will find By.cssSelector: .inputs:nth-child(1) > .text-box.single-line
+13:47:45.398 [Test worker] INFO  com.demowebshop.utils.Listener2 -- *************************************
+13:47:45.406 [Test worker] INFO  com.demowebshop.utils.Listener2 -- The locator is By.cssSelector: .inputs:nth-child(1) > .text-box.single-line
+13:47:45.406 [Test worker] INFO  com.demowebshop.utils.Listener2 -- *************************************
+13:47:45.421 [Test worker] INFO  com.demowebshop.utils.Listener2 -- The locator will find By.xpath: //input[@id='ConfirmPassword']
+13:47:45.421 [Test worker] INFO  com.demowebshop.utils.Listener2 -- *************************************
+13:47:45.428 [Test worker] INFO  com.demowebshop.utils.Listener2 -- The locator is By.xpath: //input[@id='ConfirmPassword']
+13:47:45.428 [Test worker] INFO  com.demowebshop.utils.Listener2 -- *************************************
+13:47:45.454 [Test worker] INFO  com.demowebshop.utils.Listener2 -- The locator will find By.xpath: //input[@id='ConfirmPassword']
+13:47:45.454 [Test worker] INFO  com.demowebshop.utils.Listener2 -- *************************************
+13:47:45.462 [Test worker] INFO  com.demowebshop.utils.Listener2 -- The locator is By.xpath: //input[@id='ConfirmPassword']
+13:47:45.462 [Test worker] INFO  com.demowebshop.utils.Listener2 -- *************************************
+13:47:45.474 [Test worker] INFO  com.demowebshop.utils.Listener2 -- The locator will find By.xpath: //input[@id='ConfirmPassword']
+13:47:45.474 [Test worker] INFO  com.demowebshop.utils.Listener2 -- *************************************
+13:47:45.482 [Test worker] INFO  com.demowebshop.utils.Listener2 -- The locator is By.xpath: //input[@id='ConfirmPassword']
+13:47:45.482 [Test worker] INFO  com.demowebshop.utils.Listener2 -- *************************************
+13:47:45.497 [Test worker] INFO  com.demowebshop.utils.Listener2 -- The locator will find By.xpath: //input[@value='Register']
+13:47:45.498 [Test worker] INFO  com.demowebshop.utils.Listener2 -- *************************************
+13:47:45.504 [Test worker] INFO  com.demowebshop.utils.Listener2 -- The locator is By.xpath: //input[@value='Register']
+13:47:45.505 [Test worker] INFO  com.demowebshop.utils.Listener2 -- *************************************
+13:47:47.791 [Test worker] INFO  com.demowebshop.utils.Listener2 -- Before find elements By.cssSelector: [href='/logout']
+13:47:47.792 [Test worker] INFO  com.demowebshop.utils.Listener2 -- *************************************
+13:47:47.803 [Test worker] INFO  com.demowebshop.utils.Listener2 -- List size is 1
+13:47:47.804 [Test worker] INFO  com.demowebshop.utils.Listener2 -- *************************************
+13:47:47.805 [Test worker] INFO  com.demowebshop.TestBase -- PASSED: newUserRegistrationPositiveWithCSV
+13:47:47.805 [Test worker] INFO  com.demowebshop.TestBase -- Finish test
+13:47:47.805 [Test worker] INFO  com.demowebshop.TestBase -- *************************************
+13:47:47.806 [Test worker] INFO  com.demowebshop.TestBase -- Start test newUserRegistrationPositiveWithCSV[Ezio, Auditore, 2840kan65641@gmail.com, Aa11111!, Aa11111!]
+13:47:47.807 [Test worker] INFO  com.demowebshop.utils.Listener2 -- Before find elements By.cssSelector: [href='/login']
+13:47:47.807 [Test worker] INFO  com.demowebshop.utils.Listener2 -- *************************************
+13:47:57.805 [Test worker] INFO  com.demowebshop.utils.Listener2 -- List size is 0
+13:47:57.805 [Test worker] INFO  com.demowebshop.utils.Listener2 -- *************************************
+13:47:57.805 [Test worker] INFO  com.demowebshop.utils.Listener2 -- The locator will find By.cssSelector: [href='/logout']
+13:47:57.805 [Test worker] INFO  com.demowebshop.utils.Listener2 -- *************************************
+13:47:57.821 [Test worker] INFO  com.demowebshop.utils.Listener2 -- The locator is By.cssSelector: [href='/logout']
+13:47:57.821 [Test worker] INFO  com.demowebshop.utils.Listener2 -- *************************************
+13:47:58.655 [Test worker] INFO  com.demowebshop.utils.Listener2 -- The locator will find By.cssSelector: [href='/register']
+13:47:58.655 [Test worker] INFO  com.demowebshop.utils.Listener2 -- *************************************
+13:47:58.666 [Test worker] INFO  com.demowebshop.utils.Listener2 -- The locator is By.cssSelector: [href='/register']
+13:47:58.666 [Test worker] INFO  com.demowebshop.utils.Listener2 -- *************************************
+13:47:59.217 [Test worker] INFO  com.demowebshop.utils.Listener2 -- The locator will find By.xpath: //input[@type='radio'][@id='gender-male']
+13:47:59.217 [Test worker] INFO  com.demowebshop.utils.Listener2 -- *************************************
+13:47:59.224 [Test worker] INFO  com.demowebshop.utils.Listener2 -- The locator is By.xpath: //input[@type='radio'][@id='gender-male']
+13:47:59.225 [Test worker] INFO  com.demowebshop.utils.Listener2 -- *************************************
+13:47:59.251 [Test worker] INFO  com.demowebshop.utils.Listener2 -- The locator will find By.cssSelector: .inputs:nth-child(2) > .text-box.single-line
+13:47:59.251 [Test worker] INFO  com.demowebshop.utils.Listener2 -- *************************************
+13:47:59.259 [Test worker] INFO  com.demowebshop.utils.Listener2 -- The locator is By.cssSelector: .inputs:nth-child(2) > .text-box.single-line
+13:47:59.259 [Test worker] INFO  com.demowebshop.utils.Listener2 -- *************************************
+13:47:59.284 [Test worker] INFO  com.demowebshop.utils.Listener2 -- The locator will find By.cssSelector: .inputs:nth-child(2) > .text-box.single-line
+13:47:59.285 [Test worker] INFO  com.demowebshop.utils.Listener2 -- *************************************
+13:47:59.296 [Test worker] INFO  com.demowebshop.utils.Listener2 -- The locator is By.cssSelector: .inputs:nth-child(2) > .text-box.single-line
+13:47:59.296 [Test worker] INFO  com.demowebshop.utils.Listener2 -- *************************************
+13:47:59.308 [Test worker] INFO  com.demowebshop.utils.Listener2 -- The locator will find By.cssSelector: .inputs:nth-child(2) > .text-box.single-line
+13:47:59.308 [Test worker] INFO  com.demowebshop.utils.Listener2 -- *************************************
+13:47:59.314 [Test worker] INFO  com.demowebshop.utils.Listener2 -- The locator is By.cssSelector: .inputs:nth-child(2) > .text-box.single-line
+13:47:59.314 [Test worker] INFO  com.demowebshop.utils.Listener2 -- *************************************
+13:47:59.329 [Test worker] INFO  com.demowebshop.utils.Listener2 -- The locator will find By.cssSelector: .inputs:nth-child(3) > .text-box.single-line
+13:47:59.330 [Test worker] INFO  com.demowebshop.utils.Listener2 -- *************************************
+13:47:59.337 [Test worker] INFO  com.demowebshop.utils.Listener2 -- The locator is By.cssSelector: .inputs:nth-child(3) > .text-box.single-line
+13:47:59.337 [Test worker] INFO  com.demowebshop.utils.Listener2 -- *************************************
+13:47:59.364 [Test worker] INFO  com.demowebshop.utils.Listener2 -- The locator will find By.cssSelector: .inputs:nth-child(3) > .text-box.single-line
+13:47:59.365 [Test worker] INFO  com.demowebshop.utils.Listener2 -- *************************************
+13:47:59.377 [Test worker] INFO  com.demowebshop.utils.Listener2 -- The locator is By.cssSelector: .inputs:nth-child(3) > .text-box.single-line
+13:47:59.377 [Test worker] INFO  com.demowebshop.utils.Listener2 -- *************************************
+13:47:59.389 [Test worker] INFO  com.demowebshop.utils.Listener2 -- The locator will find By.cssSelector: .inputs:nth-child(3) > .text-box.single-line
+13:47:59.389 [Test worker] INFO  com.demowebshop.utils.Listener2 -- *************************************
+13:47:59.397 [Test worker] INFO  com.demowebshop.utils.Listener2 -- The locator is By.cssSelector: .inputs:nth-child(3) > .text-box.single-line
+13:47:59.397 [Test worker] INFO  com.demowebshop.utils.Listener2 -- *************************************
+13:47:59.412 [Test worker] INFO  com.demowebshop.utils.Listener2 -- The locator will find By.cssSelector: .inputs:nth-child(4) > .text-box.single-line
+13:47:59.412 [Test worker] INFO  com.demowebshop.utils.Listener2 -- *************************************
+13:47:59.419 [Test worker] INFO  com.demowebshop.utils.Listener2 -- The locator is By.cssSelector: .inputs:nth-child(4) > .text-box.single-line
+13:47:59.419 [Test worker] INFO  com.demowebshop.utils.Listener2 -- *************************************
+13:47:59.448 [Test worker] INFO  com.demowebshop.utils.Listener2 -- The locator will find By.cssSelector: .inputs:nth-child(4) > .text-box.single-line
+13:47:59.448 [Test worker] INFO  com.demowebshop.utils.Listener2 -- *************************************
+13:47:59.459 [Test worker] INFO  com.demowebshop.utils.Listener2 -- The locator is By.cssSelector: .inputs:nth-child(4) > .text-box.single-line
+13:47:59.459 [Test worker] INFO  com.demowebshop.utils.Listener2 -- *************************************
+13:47:59.471 [Test worker] INFO  com.demowebshop.utils.Listener2 -- The locator will find By.cssSelector: .inputs:nth-child(4) > .text-box.single-line
+13:47:59.471 [Test worker] INFO  com.demowebshop.utils.Listener2 -- *************************************
+13:47:59.478 [Test worker] INFO  com.demowebshop.utils.Listener2 -- The locator is By.cssSelector: .inputs:nth-child(4) > .text-box.single-line
+13:47:59.478 [Test worker] INFO  com.demowebshop.utils.Listener2 -- *************************************
+13:47:59.498 [Test worker] INFO  com.demowebshop.utils.Listener2 -- The locator will find By.cssSelector: .inputs:nth-child(1) > .text-box.single-line
+13:47:59.498 [Test worker] INFO  com.demowebshop.utils.Listener2 -- *************************************
+13:47:59.505 [Test worker] INFO  com.demowebshop.utils.Listener2 -- The locator is By.cssSelector: .inputs:nth-child(1) > .text-box.single-line
+13:47:59.505 [Test worker] INFO  com.demowebshop.utils.Listener2 -- *************************************
+13:47:59.532 [Test worker] INFO  com.demowebshop.utils.Listener2 -- The locator will find By.cssSelector: .inputs:nth-child(1) > .text-box.single-line
+13:47:59.532 [Test worker] INFO  com.demowebshop.utils.Listener2 -- *************************************
+13:47:59.539 [Test worker] INFO  com.demowebshop.utils.Listener2 -- The locator is By.cssSelector: .inputs:nth-child(1) > .text-box.single-line
+13:47:59.539 [Test worker] INFO  com.demowebshop.utils.Listener2 -- *************************************
+13:47:59.549 [Test worker] INFO  com.demowebshop.utils.Listener2 -- The locator will find By.cssSelector: .inputs:nth-child(1) > .text-box.single-line
+13:47:59.549 [Test worker] INFO  com.demowebshop.utils.Listener2 -- *************************************
+13:47:59.556 [Test worker] INFO  com.demowebshop.utils.Listener2 -- The locator is By.cssSelector: .inputs:nth-child(1) > .text-box.single-line
+13:47:59.556 [Test worker] INFO  com.demowebshop.utils.Listener2 -- *************************************
+13:47:59.579 [Test worker] INFO  com.demowebshop.utils.Listener2 -- The locator will find By.xpath: //input[@id='ConfirmPassword']
+13:47:59.579 [Test worker] INFO  com.demowebshop.utils.Listener2 -- *************************************
+13:47:59.585 [Test worker] INFO  com.demowebshop.utils.Listener2 -- The locator is By.xpath: //input[@id='ConfirmPassword']
+13:47:59.585 [Test worker] INFO  com.demowebshop.utils.Listener2 -- *************************************
+13:47:59.616 [Test worker] INFO  com.demowebshop.utils.Listener2 -- The locator will find By.xpath: //input[@id='ConfirmPassword']
+13:47:59.616 [Test worker] INFO  com.demowebshop.utils.Listener2 -- *************************************
+13:47:59.623 [Test worker] INFO  com.demowebshop.utils.Listener2 -- The locator is By.xpath: //input[@id='ConfirmPassword']
+13:47:59.623 [Test worker] INFO  com.demowebshop.utils.Listener2 -- *************************************
+13:47:59.640 [Test worker] INFO  com.demowebshop.utils.Listener2 -- The locator will find By.xpath: //input[@id='ConfirmPassword']
+13:47:59.640 [Test worker] INFO  com.demowebshop.utils.Listener2 -- *************************************
+13:47:59.646 [Test worker] INFO  com.demowebshop.utils.Listener2 -- The locator is By.xpath: //input[@id='ConfirmPassword']
+13:47:59.646 [Test worker] INFO  com.demowebshop.utils.Listener2 -- *************************************
+13:47:59.659 [Test worker] INFO  com.demowebshop.utils.Listener2 -- The locator will find By.xpath: //input[@value='Register']
+13:47:59.659 [Test worker] INFO  com.demowebshop.utils.Listener2 -- *************************************
+13:47:59.670 [Test worker] INFO  com.demowebshop.utils.Listener2 -- The locator is By.xpath: //input[@value='Register']
+13:47:59.670 [Test worker] INFO  com.demowebshop.utils.Listener2 -- *************************************
+13:48:01.383 [Test worker] INFO  com.demowebshop.utils.Listener2 -- Before find elements By.cssSelector: [href='/logout']
+13:48:01.384 [Test worker] INFO  com.demowebshop.utils.Listener2 -- *************************************
+13:48:01.395 [Test worker] INFO  com.demowebshop.utils.Listener2 -- List size is 1
+13:48:01.395 [Test worker] INFO  com.demowebshop.utils.Listener2 -- *************************************
+13:48:01.396 [Test worker] INFO  com.demowebshop.TestBase -- PASSED: newUserRegistrationPositiveWithCSV
+13:48:01.396 [Test worker] INFO  com.demowebshop.TestBase -- Finish test
+13:48:01.396 [Test worker] INFO  com.demowebshop.TestBase -- *************************************
+13:48:01.397 [Test worker] INFO  com.demowebshop.TestBase -- Start test newUserRegistrationPositiveWithCSV[Josh, Smith, 2840kan65601@gmail.com, Aa11111!, Aa11111!]
+13:48:01.398 [Test worker] INFO  com.demowebshop.utils.Listener2 -- Before find elements By.cssSelector: [href='/login']
+13:48:01.398 [Test worker] INFO  com.demowebshop.utils.Listener2 -- *************************************
+13:48:11.415 [Test worker] INFO  com.demowebshop.utils.Listener2 -- List size is 0
+13:48:11.415 [Test worker] INFO  com.demowebshop.utils.Listener2 -- *************************************
+13:48:11.415 [Test worker] INFO  com.demowebshop.utils.Listener2 -- The locator will find By.cssSelector: [href='/logout']
+13:48:11.415 [Test worker] INFO  com.demowebshop.utils.Listener2 -- *************************************
+13:48:11.431 [Test worker] INFO  com.demowebshop.utils.Listener2 -- The locator is By.cssSelector: [href='/logout']
+13:48:11.431 [Test worker] INFO  com.demowebshop.utils.Listener2 -- *************************************
+13:48:12.196 [Test worker] INFO  com.demowebshop.utils.Listener2 -- The locator will find By.cssSelector: [href='/register']
+13:48:12.196 [Test worker] INFO  com.demowebshop.utils.Listener2 -- *************************************
+13:48:12.206 [Test worker] INFO  com.demowebshop.utils.Listener2 -- The locator is By.cssSelector: [href='/register']
+13:48:12.206 [Test worker] INFO  com.demowebshop.utils.Listener2 -- *************************************
+13:48:12.658 [Test worker] INFO  com.demowebshop.utils.Listener2 -- The locator will find By.xpath: //input[@type='radio'][@id='gender-male']
+13:48:12.658 [Test worker] INFO  com.demowebshop.utils.Listener2 -- *************************************
+13:48:12.668 [Test worker] INFO  com.demowebshop.utils.Listener2 -- The locator is By.xpath: //input[@type='radio'][@id='gender-male']
+13:48:12.668 [Test worker] INFO  com.demowebshop.utils.Listener2 -- *************************************
+13:48:12.691 [Test worker] INFO  com.demowebshop.utils.Listener2 -- The locator will find By.cssSelector: .inputs:nth-child(2) > .text-box.single-line
+13:48:12.691 [Test worker] INFO  com.demowebshop.utils.Listener2 -- *************************************
+13:48:12.698 [Test worker] INFO  com.demowebshop.utils.Listener2 -- The locator is By.cssSelector: .inputs:nth-child(2) > .text-box.single-line
+13:48:12.698 [Test worker] INFO  com.demowebshop.utils.Listener2 -- *************************************
+13:48:12.728 [Test worker] INFO  com.demowebshop.utils.Listener2 -- The locator will find By.cssSelector: .inputs:nth-child(2) > .text-box.single-line
+13:48:12.728 [Test worker] INFO  com.demowebshop.utils.Listener2 -- *************************************
+13:48:12.736 [Test worker] INFO  com.demowebshop.utils.Listener2 -- The locator is By.cssSelector: .inputs:nth-child(2) > .text-box.single-line
+13:48:12.737 [Test worker] INFO  com.demowebshop.utils.Listener2 -- *************************************
+13:48:12.749 [Test worker] INFO  com.demowebshop.utils.Listener2 -- The locator will find By.cssSelector: .inputs:nth-child(2) > .text-box.single-line
+13:48:12.749 [Test worker] INFO  com.demowebshop.utils.Listener2 -- *************************************
+13:48:12.755 [Test worker] INFO  com.demowebshop.utils.Listener2 -- The locator is By.cssSelector: .inputs:nth-child(2) > .text-box.single-line
+13:48:12.755 [Test worker] INFO  com.demowebshop.utils.Listener2 -- *************************************
+13:48:12.773 [Test worker] INFO  com.demowebshop.utils.Listener2 -- The locator will find By.cssSelector: .inputs:nth-child(3) > .text-box.single-line
+13:48:12.773 [Test worker] INFO  com.demowebshop.utils.Listener2 -- *************************************
+13:48:12.780 [Test worker] INFO  com.demowebshop.utils.Listener2 -- The locator is By.cssSelector: .inputs:nth-child(3) > .text-box.single-line
+13:48:12.780 [Test worker] INFO  com.demowebshop.utils.Listener2 -- *************************************
+13:48:12.807 [Test worker] INFO  com.demowebshop.utils.Listener2 -- The locator will find By.cssSelector: .inputs:nth-child(3) > .text-box.single-line
+13:48:12.807 [Test worker] INFO  com.demowebshop.utils.Listener2 -- *************************************
+13:48:12.817 [Test worker] INFO  com.demowebshop.utils.Listener2 -- The locator is By.cssSelector: .inputs:nth-child(3) > .text-box.single-line
+13:48:12.818 [Test worker] INFO  com.demowebshop.utils.Listener2 -- *************************************
+13:48:12.828 [Test worker] INFO  com.demowebshop.utils.Listener2 -- The locator will find By.cssSelector: .inputs:nth-child(3) > .text-box.single-line
+13:48:12.829 [Test worker] INFO  com.demowebshop.utils.Listener2 -- *************************************
+13:48:12.835 [Test worker] INFO  com.demowebshop.utils.Listener2 -- The locator is By.cssSelector: .inputs:nth-child(3) > .text-box.single-line
+13:48:12.835 [Test worker] INFO  com.demowebshop.utils.Listener2 -- *************************************
+13:48:12.849 [Test worker] INFO  com.demowebshop.utils.Listener2 -- The locator will find By.cssSelector: .inputs:nth-child(4) > .text-box.single-line
+13:48:12.849 [Test worker] INFO  com.demowebshop.utils.Listener2 -- *************************************
+13:48:12.855 [Test worker] INFO  com.demowebshop.utils.Listener2 -- The locator is By.cssSelector: .inputs:nth-child(4) > .text-box.single-line
+13:48:12.856 [Test worker] INFO  com.demowebshop.utils.Listener2 -- *************************************
+13:48:12.882 [Test worker] INFO  com.demowebshop.utils.Listener2 -- The locator will find By.cssSelector: .inputs:nth-child(4) > .text-box.single-line
+13:48:12.882 [Test worker] INFO  com.demowebshop.utils.Listener2 -- *************************************
+13:48:12.893 [Test worker] INFO  com.demowebshop.utils.Listener2 -- The locator is By.cssSelector: .inputs:nth-child(4) > .text-box.single-line
+13:48:12.893 [Test worker] INFO  com.demowebshop.utils.Listener2 -- *************************************
+13:48:12.904 [Test worker] INFO  com.demowebshop.utils.Listener2 -- The locator will find By.cssSelector: .inputs:nth-child(4) > .text-box.single-line
+13:48:12.904 [Test worker] INFO  com.demowebshop.utils.Listener2 -- *************************************
+13:48:12.912 [Test worker] INFO  com.demowebshop.utils.Listener2 -- The locator is By.cssSelector: .inputs:nth-child(4) > .text-box.single-line
+13:48:12.912 [Test worker] INFO  com.demowebshop.utils.Listener2 -- *************************************
+13:48:12.933 [Test worker] INFO  com.demowebshop.utils.Listener2 -- The locator will find By.cssSelector: .inputs:nth-child(1) > .text-box.single-line
+13:48:12.933 [Test worker] INFO  com.demowebshop.utils.Listener2 -- *************************************
+13:48:12.939 [Test worker] INFO  com.demowebshop.utils.Listener2 -- The locator is By.cssSelector: .inputs:nth-child(1) > .text-box.single-line
+13:48:12.940 [Test worker] INFO  com.demowebshop.utils.Listener2 -- *************************************
+13:48:12.969 [Test worker] INFO  com.demowebshop.utils.Listener2 -- The locator will find By.cssSelector: .inputs:nth-child(1) > .text-box.single-line
+13:48:12.969 [Test worker] INFO  com.demowebshop.utils.Listener2 -- *************************************
+13:48:12.975 [Test worker] INFO  com.demowebshop.utils.Listener2 -- The locator is By.cssSelector: .inputs:nth-child(1) > .text-box.single-line
+13:48:12.975 [Test worker] INFO  com.demowebshop.utils.Listener2 -- *************************************
+13:48:12.987 [Test worker] INFO  com.demowebshop.utils.Listener2 -- The locator will find By.cssSelector: .inputs:nth-child(1) > .text-box.single-line
+13:48:12.987 [Test worker] INFO  com.demowebshop.utils.Listener2 -- *************************************
+13:48:12.995 [Test worker] INFO  com.demowebshop.utils.Listener2 -- The locator is By.cssSelector: .inputs:nth-child(1) > .text-box.single-line
+13:48:12.995 [Test worker] INFO  com.demowebshop.utils.Listener2 -- *************************************
+13:48:13.011 [Test worker] INFO  com.demowebshop.utils.Listener2 -- The locator will find By.xpath: //input[@id='ConfirmPassword']
+13:48:13.011 [Test worker] INFO  com.demowebshop.utils.Listener2 -- *************************************
+13:48:13.018 [Test worker] INFO  com.demowebshop.utils.Listener2 -- The locator is By.xpath: //input[@id='ConfirmPassword']
+13:48:13.018 [Test worker] INFO  com.demowebshop.utils.Listener2 -- *************************************
+13:48:13.044 [Test worker] INFO  com.demowebshop.utils.Listener2 -- The locator will find By.xpath: //input[@id='ConfirmPassword']
+13:48:13.045 [Test worker] INFO  com.demowebshop.utils.Listener2 -- *************************************
+13:48:13.052 [Test worker] INFO  com.demowebshop.utils.Listener2 -- The locator is By.xpath: //input[@id='ConfirmPassword']
+13:48:13.053 [Test worker] INFO  com.demowebshop.utils.Listener2 -- *************************************
+13:48:13.063 [Test worker] INFO  com.demowebshop.utils.Listener2 -- The locator will find By.xpath: //input[@id='ConfirmPassword']
+13:48:13.063 [Test worker] INFO  com.demowebshop.utils.Listener2 -- *************************************
+13:48:13.070 [Test worker] INFO  com.demowebshop.utils.Listener2 -- The locator is By.xpath: //input[@id='ConfirmPassword']
+13:48:13.070 [Test worker] INFO  com.demowebshop.utils.Listener2 -- *************************************
+13:48:13.089 [Test worker] INFO  com.demowebshop.utils.Listener2 -- The locator will find By.xpath: //input[@value='Register']
+13:48:13.089 [Test worker] INFO  com.demowebshop.utils.Listener2 -- *************************************
+13:48:13.096 [Test worker] INFO  com.demowebshop.utils.Listener2 -- The locator is By.xpath: //input[@value='Register']
+13:48:13.096 [Test worker] INFO  com.demowebshop.utils.Listener2 -- *************************************
+13:48:14.177 [Test worker] INFO  com.demowebshop.utils.Listener2 -- Before find elements By.cssSelector: [href='/logout']
+13:48:14.177 [Test worker] INFO  com.demowebshop.utils.Listener2 -- *************************************
+13:48:14.184 [Test worker] INFO  com.demowebshop.utils.Listener2 -- List size is 1
+13:48:14.184 [Test worker] INFO  com.demowebshop.utils.Listener2 -- *************************************
+13:48:14.185 [Test worker] INFO  com.demowebshop.TestBase -- PASSED: newUserRegistrationPositiveWithCSV
+13:48:14.185 [Test worker] INFO  com.demowebshop.TestBase -- Finish test
+13:48:14.185 [Test worker] INFO  com.demowebshop.TestBase -- *************************************
+13:48:14.186 [Test worker] INFO  com.demowebshop.TestBase -- Start test newUserRegistrationPositiveWithCSV[Eliy, Kohen, 2840kan65691@gmail.com, Aa11111!, Aa11111!]
+13:48:14.186 [Test worker] INFO  com.demowebshop.utils.Listener2 -- Before find elements By.cssSelector: [href='/login']
+13:48:14.186 [Test worker] INFO  com.demowebshop.utils.Listener2 -- *************************************
+13:48:24.211 [Test worker] INFO  com.demowebshop.utils.Listener2 -- List size is 0
+13:48:24.211 [Test worker] INFO  com.demowebshop.utils.Listener2 -- *************************************
+13:48:24.211 [Test worker] INFO  com.demowebshop.utils.Listener2 -- The locator will find By.cssSelector: [href='/logout']
+13:48:24.211 [Test worker] INFO  com.demowebshop.utils.Listener2 -- *************************************
+13:48:24.224 [Test worker] INFO  com.demowebshop.utils.Listener2 -- The locator is By.cssSelector: [href='/logout']
+13:48:24.224 [Test worker] INFO  com.demowebshop.utils.Listener2 -- *************************************
+13:48:24.998 [Test worker] INFO  com.demowebshop.utils.Listener2 -- The locator will find By.cssSelector: [href='/register']
+13:48:24.998 [Test worker] INFO  com.demowebshop.utils.Listener2 -- *************************************
+13:48:25.008 [Test worker] INFO  com.demowebshop.utils.Listener2 -- The locator is By.cssSelector: [href='/register']
+13:48:25.008 [Test worker] INFO  com.demowebshop.utils.Listener2 -- *************************************
+13:48:25.470 [Test worker] INFO  com.demowebshop.utils.Listener2 -- The locator will find By.xpath: //input[@type='radio'][@id='gender-male']
+13:48:25.470 [Test worker] INFO  com.demowebshop.utils.Listener2 -- *************************************
+13:48:25.477 [Test worker] INFO  com.demowebshop.utils.Listener2 -- The locator is By.xpath: //input[@type='radio'][@id='gender-male']
+13:48:25.477 [Test worker] INFO  com.demowebshop.utils.Listener2 -- *************************************
+13:48:25.501 [Test worker] INFO  com.demowebshop.utils.Listener2 -- The locator will find By.cssSelector: .inputs:nth-child(2) > .text-box.single-line
+13:48:25.501 [Test worker] INFO  com.demowebshop.utils.Listener2 -- *************************************
+13:48:25.507 [Test worker] INFO  com.demowebshop.utils.Listener2 -- The locator is By.cssSelector: .inputs:nth-child(2) > .text-box.single-line
+13:48:25.507 [Test worker] INFO  com.demowebshop.utils.Listener2 -- *************************************
+13:48:25.539 [Test worker] INFO  com.demowebshop.utils.Listener2 -- The locator will find By.cssSelector: .inputs:nth-child(2) > .text-box.single-line
+13:48:25.540 [Test worker] INFO  com.demowebshop.utils.Listener2 -- *************************************
+13:48:25.549 [Test worker] INFO  com.demowebshop.utils.Listener2 -- The locator is By.cssSelector: .inputs:nth-child(2) > .text-box.single-line
+13:48:25.549 [Test worker] INFO  com.demowebshop.utils.Listener2 -- *************************************
+13:48:25.561 [Test worker] INFO  com.demowebshop.utils.Listener2 -- The locator will find By.cssSelector: .inputs:nth-child(2) > .text-box.single-line
+13:48:25.561 [Test worker] INFO  com.demowebshop.utils.Listener2 -- *************************************
+13:48:25.567 [Test worker] INFO  com.demowebshop.utils.Listener2 -- The locator is By.cssSelector: .inputs:nth-child(2) > .text-box.single-line
+13:48:25.567 [Test worker] INFO  com.demowebshop.utils.Listener2 -- *************************************
+13:48:25.581 [Test worker] INFO  com.demowebshop.utils.Listener2 -- The locator will find By.cssSelector: .inputs:nth-child(3) > .text-box.single-line
+13:48:25.581 [Test worker] INFO  com.demowebshop.utils.Listener2 -- *************************************
+13:48:25.589 [Test worker] INFO  com.demowebshop.utils.Listener2 -- The locator is By.cssSelector: .inputs:nth-child(3) > .text-box.single-line
+13:48:25.589 [Test worker] INFO  com.demowebshop.utils.Listener2 -- *************************************
+13:48:25.615 [Test worker] INFO  com.demowebshop.utils.Listener2 -- The locator will find By.cssSelector: .inputs:nth-child(3) > .text-box.single-line
+13:48:25.616 [Test worker] INFO  com.demowebshop.utils.Listener2 -- *************************************
+13:48:25.627 [Test worker] INFO  com.demowebshop.utils.Listener2 -- The locator is By.cssSelector: .inputs:nth-child(3) > .text-box.single-line
+13:48:25.627 [Test worker] INFO  com.demowebshop.utils.Listener2 -- *************************************
+13:48:25.639 [Test worker] INFO  com.demowebshop.utils.Listener2 -- The locator will find By.cssSelector: .inputs:nth-child(3) > .text-box.single-line
+13:48:25.639 [Test worker] INFO  com.demowebshop.utils.Listener2 -- *************************************
+13:48:25.645 [Test worker] INFO  com.demowebshop.utils.Listener2 -- The locator is By.cssSelector: .inputs:nth-child(3) > .text-box.single-line
+13:48:25.645 [Test worker] INFO  com.demowebshop.utils.Listener2 -- *************************************
+13:48:25.662 [Test worker] INFO  com.demowebshop.utils.Listener2 -- The locator will find By.cssSelector: .inputs:nth-child(4) > .text-box.single-line
+13:48:25.662 [Test worker] INFO  com.demowebshop.utils.Listener2 -- *************************************
+13:48:25.668 [Test worker] INFO  com.demowebshop.utils.Listener2 -- The locator is By.cssSelector: .inputs:nth-child(4) > .text-box.single-line
+13:48:25.668 [Test worker] INFO  com.demowebshop.utils.Listener2 -- *************************************
+13:48:25.693 [Test worker] INFO  com.demowebshop.utils.Listener2 -- The locator will find By.cssSelector: .inputs:nth-child(4) > .text-box.single-line
+13:48:25.693 [Test worker] INFO  com.demowebshop.utils.Listener2 -- *************************************
+13:48:25.706 [Test worker] INFO  com.demowebshop.utils.Listener2 -- The locator is By.cssSelector: .inputs:nth-child(4) > .text-box.single-line
+13:48:25.706 [Test worker] INFO  com.demowebshop.utils.Listener2 -- *************************************
+13:48:25.717 [Test worker] INFO  com.demowebshop.utils.Listener2 -- The locator will find By.cssSelector: .inputs:nth-child(4) > .text-box.single-line
+13:48:25.717 [Test worker] INFO  com.demowebshop.utils.Listener2 -- *************************************
+13:48:25.723 [Test worker] INFO  com.demowebshop.utils.Listener2 -- The locator is By.cssSelector: .inputs:nth-child(4) > .text-box.single-line
+13:48:25.723 [Test worker] INFO  com.demowebshop.utils.Listener2 -- *************************************
+13:48:25.745 [Test worker] INFO  com.demowebshop.utils.Listener2 -- The locator will find By.cssSelector: .inputs:nth-child(1) > .text-box.single-line
+13:48:25.745 [Test worker] INFO  com.demowebshop.utils.Listener2 -- *************************************
+13:48:25.752 [Test worker] INFO  com.demowebshop.utils.Listener2 -- The locator is By.cssSelector: .inputs:nth-child(1) > .text-box.single-line
+13:48:25.752 [Test worker] INFO  com.demowebshop.utils.Listener2 -- *************************************
+13:48:25.781 [Test worker] INFO  com.demowebshop.utils.Listener2 -- The locator will find By.cssSelector: .inputs:nth-child(1) > .text-box.single-line
+13:48:25.781 [Test worker] INFO  com.demowebshop.utils.Listener2 -- *************************************
+13:48:25.788 [Test worker] INFO  com.demowebshop.utils.Listener2 -- The locator is By.cssSelector: .inputs:nth-child(1) > .text-box.single-line
+13:48:25.788 [Test worker] INFO  com.demowebshop.utils.Listener2 -- *************************************
+13:48:25.800 [Test worker] INFO  com.demowebshop.utils.Listener2 -- The locator will find By.cssSelector: .inputs:nth-child(1) > .text-box.single-line
+13:48:25.800 [Test worker] INFO  com.demowebshop.utils.Listener2 -- *************************************
+13:48:25.809 [Test worker] INFO  com.demowebshop.utils.Listener2 -- The locator is By.cssSelector: .inputs:nth-child(1) > .text-box.single-line
+13:48:25.809 [Test worker] INFO  com.demowebshop.utils.Listener2 -- *************************************
+13:48:25.825 [Test worker] INFO  com.demowebshop.utils.Listener2 -- The locator will find By.xpath: //input[@id='ConfirmPassword']
+13:48:25.826 [Test worker] INFO  com.demowebshop.utils.Listener2 -- *************************************
+13:48:25.833 [Test worker] INFO  com.demowebshop.utils.Listener2 -- The locator is By.xpath: //input[@id='ConfirmPassword']
+13:48:25.833 [Test worker] INFO  com.demowebshop.utils.Listener2 -- *************************************
+13:48:25.859 [Test worker] INFO  com.demowebshop.utils.Listener2 -- The locator will find By.xpath: //input[@id='ConfirmPassword']
+13:48:25.859 [Test worker] INFO  com.demowebshop.utils.Listener2 -- *************************************
+13:48:25.866 [Test worker] INFO  com.demowebshop.utils.Listener2 -- The locator is By.xpath: //input[@id='ConfirmPassword']
+13:48:25.866 [Test worker] INFO  com.demowebshop.utils.Listener2 -- *************************************
+13:48:25.877 [Test worker] INFO  com.demowebshop.utils.Listener2 -- The locator will find By.xpath: //input[@id='ConfirmPassword']
+13:48:25.877 [Test worker] INFO  com.demowebshop.utils.Listener2 -- *************************************
+13:48:25.881 [Test worker] INFO  com.demowebshop.utils.Listener2 -- The locator is By.xpath: //input[@id='ConfirmPassword']
+13:48:25.881 [Test worker] INFO  com.demowebshop.utils.Listener2 -- *************************************
+13:48:25.901 [Test worker] INFO  com.demowebshop.utils.Listener2 -- The locator will find By.xpath: //input[@value='Register']
+13:48:25.901 [Test worker] INFO  com.demowebshop.utils.Listener2 -- *************************************
+13:48:25.908 [Test worker] INFO  com.demowebshop.utils.Listener2 -- The locator is By.xpath: //input[@value='Register']
+13:48:25.908 [Test worker] INFO  com.demowebshop.utils.Listener2 -- *************************************
+13:48:26.961 [Test worker] INFO  com.demowebshop.utils.Listener2 -- Before find elements By.cssSelector: [href='/logout']
+13:48:26.961 [Test worker] INFO  com.demowebshop.utils.Listener2 -- *************************************
+13:48:26.972 [Test worker] INFO  com.demowebshop.utils.Listener2 -- List size is 1
+13:48:26.972 [Test worker] INFO  com.demowebshop.utils.Listener2 -- *************************************
+13:48:26.973 [Test worker] INFO  com.demowebshop.TestBase -- PASSED: newUserRegistrationPositiveWithCSV
+13:48:26.973 [Test worker] INFO  com.demowebshop.TestBase -- Finish test
+13:48:26.973 [Test worker] INFO  com.demowebshop.TestBase -- *************************************
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

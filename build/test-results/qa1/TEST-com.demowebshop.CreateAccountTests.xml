@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.demowebshop.CreateAccountTests" tests="8" skipped="0" failures="0" errors="0" timestamp="2025-09-28T10:40:17" hostname="PCSERGIUS" time="98.121">
+  <properties/>
+  <testcase name="newUserRegistrationPositive[0](Oliver, Kan, 2417kan6561@gmail.com, Aa11111!, Aa11111!)" classname="com.demowebshop.CreateAccountTests" time="3.031"/>
+  <testcase name="newUserRegistrationPositive[1](Sergey, Perlov, 2417sergius6561@gmail.com, Aa95111!, Aa95111!)" classname="com.demowebshop.CreateAccountTests" time="3.442"/>
+  <testcase name="newUserRegistrationPositive[2](Alex, Man, 2417aman6561@gmail.com, Aa16611!, Aa16611!)" classname="com.demowebshop.CreateAccountTests" time="1.856"/>
+  <testcase name="newUserRegistrationPositiveWithCSV[0](﻿Sergio, Perlov, 2447kan65611@gmail.com, Aa11111!, Aa11111!)" classname="com.demowebshop.CreateAccountTests" time="1.845"/>
+  <testcase name="newUserRegistrationPositiveWithCSV[1](Mario, Orlov, 2447kan65631@gmail.com, Aa11111!, Aa11111!)" classname="com.demowebshop.CreateAccountTests" time="1.894"/>
+  <testcase name="newUserRegistrationPositiveWithCSV[2](Ezio, Auditore, 2447kan65641@gmail.com, Aa11111!, Aa11111!)" classname="com.demowebshop.CreateAccountTests" time="1.931"/>
+  <testcase name="newUserRegistrationPositiveWithCSV[3](Josh, Smith, 2447kan65601@gmail.com, Aa11111!, Aa11111!)" classname="com.demowebshop.CreateAccountTests" time="4.161"/>
+  <testcase name="newUserRegistrationPositiveWithCSV[4](Eliy, Kohen, 2447kan65691@gmail.com, Aa11111!, Aa11111!)" classname="com.demowebshop.CreateAccountTests" time="2.147"/>
+  <system-out><![CDATA[13:40:17.514 [Test worker] INFO  com.demowebshop.TestBase -- Start test newUserRegistrationPositive
+13:40:20.561 [Test worker] INFO  com.demowebshop.TestBase -- PASSED: newUserRegistrationPositive
+13:40:20.561 [Test worker] INFO  com.demowebshop.TestBase -- Finish test
+13:40:20.561 [Test worker] INFO  com.demowebshop.TestBase -- *************************************
+13:40:20.561 [Test worker] INFO  com.demowebshop.TestBase -- Start test newUserRegistrationPositive
+13:40:34.907 [Test worker] INFO  com.demowebshop.TestBase -- PASSED: newUserRegistrationPositive
+13:40:34.908 [Test worker] INFO  com.demowebshop.TestBase -- Finish test
+13:40:34.909 [Test worker] INFO  com.demowebshop.TestBase -- *************************************
+13:40:34.911 [Test worker] INFO  com.demowebshop.TestBase -- Start test newUserRegistrationPositive
+13:40:47.547 [Test worker] INFO  com.demowebshop.TestBase -- PASSED: newUserRegistrationPositive
+13:40:47.547 [Test worker] INFO  com.demowebshop.TestBase -- Finish test
+13:40:47.547 [Test worker] INFO  com.demowebshop.TestBase -- *************************************
+13:40:47.551 [Test worker] INFO  com.demowebshop.TestBase -- Start test newUserRegistrationPositiveWithCSV
+13:41:00.198 [Test worker] INFO  com.demowebshop.TestBase -- PASSED: newUserRegistrationPositiveWithCSV
+13:41:00.198 [Test worker] INFO  com.demowebshop.TestBase -- Finish test
+13:41:00.198 [Test worker] INFO  com.demowebshop.TestBase -- *************************************
+13:41:00.199 [Test worker] INFO  com.demowebshop.TestBase -- Start test newUserRegistrationPositiveWithCSV
+13:41:13.544 [Test worker] INFO  com.demowebshop.TestBase -- PASSED: newUserRegistrationPositiveWithCSV
+13:41:13.544 [Test worker] INFO  com.demowebshop.TestBase -- Finish test
+13:41:13.544 [Test worker] INFO  com.demowebshop.TestBase -- *************************************
+13:41:13.545 [Test worker] INFO  com.demowebshop.TestBase -- Start test newUserRegistrationPositiveWithCSV
+13:41:26.433 [Test worker] INFO  com.demowebshop.TestBase -- PASSED: newUserRegistrationPositiveWithCSV
+13:41:26.433 [Test worker] INFO  com.demowebshop.TestBase -- Finish test
+13:41:26.433 [Test worker] INFO  com.demowebshop.TestBase -- *************************************
+13:41:26.433 [Test worker] INFO  com.demowebshop.TestBase -- Start test newUserRegistrationPositiveWithCSV
+13:41:42.249 [Test worker] INFO  com.demowebshop.TestBase -- PASSED: newUserRegistrationPositiveWithCSV
+13:41:42.249 [Test worker] INFO  com.demowebshop.TestBase -- Finish test
+13:41:42.249 [Test worker] INFO  com.demowebshop.TestBase -- *************************************
+13:41:42.250 [Test worker] INFO  com.demowebshop.TestBase -- Start test newUserRegistrationPositiveWithCSV
+13:41:55.648 [Test worker] INFO  com.demowebshop.TestBase -- PASSED: newUserRegistrationPositiveWithCSV
+13:41:55.649 [Test worker] INFO  com.demowebshop.TestBase -- Finish test
+13:41:55.649 [Test worker] INFO  com.demowebshop.TestBase -- *************************************
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
